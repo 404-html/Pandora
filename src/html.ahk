@@ -8,20 +8,21 @@ code(Var)
 Send, {left 6}
 return
 
+::myhtml::
 ::html`:5::
 Var = 
 (
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
 </head>
 <style>
 </style>
 <body>
-
+	<div></div>
 </body>
 <script>
 </script>
@@ -81,9 +82,6 @@ Var =
 code(Var)
 return
 
-::middle::
-    SendRaw, vertical-align: middle;
-return
 
 ::fig::
 Var = 

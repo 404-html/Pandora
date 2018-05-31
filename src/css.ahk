@@ -2,6 +2,10 @@
     Send, cursor: pointer;
 return
 
+::middle::
+    SendRaw, vertical-align: middle;
+return
+
 ::white::
     Send, white-space: nowrap;
 return
